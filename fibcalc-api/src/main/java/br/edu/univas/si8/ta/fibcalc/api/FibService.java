@@ -6,11 +6,12 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+@Path("/fibcalc")
 public interface FibService {
 	
 	@GET
-	@Path("/fib")
+	@Path("/fib/{num}")
 	@Produces(MediaType.APPLICATION_JSON)
-	Result fib(@QueryParam("number") int a);
+	Result fib(@QueryParam("num") int a);
 	
 }
