@@ -1,0 +1,15 @@
+*.class
+*.jar
+*.ear
+
+*.war
+*.project
+*.classpath
+*.xml
+*.MF
+*/.settings
+.project
+.claspath
+build/**/*
+.gradle/**/*
+*/build

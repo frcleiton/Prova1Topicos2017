@@ -1,0 +1,3 @@
+dependencies {
+	compile project(':fibcalc-api'), project(':fibcalc-lib')
+}
